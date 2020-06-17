@@ -8,7 +8,7 @@ class TestService extends Service {
     this.request = this.ctx.service.remoteAPI.request;
   }
   async echo() {
-    const res = await this.request('get', 'http://op.plustest.ndog.co/api2/testaaa');
+    const res = await this.request('get', 'https://www.oschina.net/action/openapi/user');
     return res;
   }
 }
